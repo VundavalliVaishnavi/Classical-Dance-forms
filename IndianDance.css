@@ -1,0 +1,79 @@
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row
+{
+    display: table;
+    width: 50%;
+    height: 10px;
+    margin: 10px auto;
+    font-family: cursive;
+    background: transparent;
+    padding: 2px 0;
+    color: brown;
+    font-size: 16px;
+    box-shadow: 0 0.5px 4px 0 rgba(0,0,50,0.3) ;
+    background: white;
+
+}
+
+.table-cell
+{
+    display: table-cell;
+    width:30%;
+    height:10%;
+    text-align: center;
+    padding: 3px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+    
+}
+
+.table-head
+{
+    background:deeppink;
+    box-shadow: none;
+    color:  #fff;
+    font-weight: 600;    
+    font-size: 20px;
+}
+
+body {
+    font-family: "Poppins";
+    padding: 30px;
+    font-size: 16px;
+}
+a.btn {
+    text-decoration:none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 0 12px;
+}
+.Kathak {
+    background-color: deeppink;
+}
+.Bharatanatyam {
+    background-color: darkcyan;
+}
+.Kathakali {
+    background-color: darkorchid;
+}
+.Kuchipudi {
+    background-color: darkorange;
+}
+.Odhissi {
+    background-color: darkblue;
+}
+.Sattriya {
+    background-color: darkturquoise;
+}
+.Manipuri {
+    background-color: forestgreen;
+}
+
+.Mohiniyattam {
+    background-color: darkred;
+}
