@@ -31,6 +31,12 @@ a.btn {
     padding: 15px 20px;
     border-radius: 30px;
     margin: 0 12px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+a.btn:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
 }
 .Kathak {
     background-color: deeppink;
@@ -61,6 +67,7 @@ a.btn {
 .Back_to_Home {
 
     background-color: black;
+    
 }
 
 .container
