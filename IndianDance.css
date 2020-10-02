@@ -12,7 +12,7 @@
     font-family: cursive;
     background: transparent;
     padding: 2px 0;
-    color: brown;
+    color:black;
     font-size: 16px;
     box-shadow: 0 0.5px 4px 0 rgba(0,0,50,0.3) ;
     background: white;
@@ -33,7 +33,7 @@
 
 .table-head
 {
-    background:deeppink;
+    background:darkblue;
     box-shadow: none;
     color:  #fff;
     font-weight: 600;    
@@ -76,4 +76,9 @@ a.btn {
 
 .Mohiniyattam {
     background-color: darkred;
+}
+
+.Back_to_Home {
+
+    background-color: black;
 }
