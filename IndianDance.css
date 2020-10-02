@@ -1,45 +1,25 @@
-.table-box
-{
-    margin: 50px auto;
+*{
+    box-sizing: border-box;
 }
-
-.table-row
-{
-    display: table;
-    width: 50%;
-    height: 10px;
-    margin: 10px auto;
-    font-family: cursive;
-    background: transparent;
-    padding: 2px 0;
-    color:black;
-    font-size: 16px;
-    box-shadow: 0 0.5px 4px 0 rgba(0,0,50,0.3) ;
-    background: white;
+.table{
+    width:40% ;
+    border-collapse: collapse;
 
 }
-
-.table-cell
-{
-    display: table-cell;
-    width:30%;
-    height:10%;
+.table td,
+.table th{
+    padding: 12px 12px;
+    border: 1px solid black;
     text-align: center;
-    padding: 3px 0;
-    border-right: 1px solid #d6d4d4;
-    vertical-align: middle;
-    
+    font-size: 16px;
 }
-
-.table-head
-{
-    background:darkblue;
-    box-shadow: none;
-    color:  #fff;
-    font-weight: 600;    
-    font-size: 20px;
+.table th{
+    background-color: darkblue;
+    color: #ffffff;
 }
-
+.table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
 body {
     font-family: "Poppins";
     padding: 30px;
